@@ -1,0 +1,8 @@
+version: 0.1.0
+
+name: feature_brick
+description: A feature folder structure for Flutter
+vars:
+  feature_name:
+    type: string
+    description: Name of the feature
