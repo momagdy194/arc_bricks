@@ -4,7 +4,6 @@ import 'package:arch/features/{{feature_name.snakeCase()}}/domain/entities/{{fea
 import 'package:arch/features/{{feature_name.snakeCase()}}/domain/repository/{{feature_name.snakeCase()}}_repository.dart';
 import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';
-import 'package:injectable/injectable.dart';
 
 
 class Get{{feature_name.pascalCase()}}UseCase extends UseCase<{{feature_name.pascalCase()}}Entity, {{feature_name.pascalCase()}}Params> {

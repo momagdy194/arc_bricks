@@ -2,8 +2,7 @@ import 'package:arch/core/domain/entities/failure.dart';
 import 'package:arch/features/{{feature_name.snakeCase()}}/domain/use_cases/get_{{feature_name.snakeCase()}}_use_case.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:injectable/injectable.dart';
- 
+
 part '../../../../{{feature_name}}/presentation/manager/{{feature_name}}/{{feature_name.snakeCase()}}_state.dart';
 
 class {{feature_name.pascalCase()}}Cubit extends Cubit<{{feature_name.pascalCase()}}State> {
