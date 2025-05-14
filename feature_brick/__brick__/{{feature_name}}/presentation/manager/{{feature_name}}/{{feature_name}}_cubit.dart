@@ -6,7 +6,6 @@ import 'package:injectable/injectable.dart';
  
 part '../../../../{{feature_name}}/presentation/manager/{{feature_name}}/{{feature_name.snakeCase()}}_state.dart';
 
-@injectable
 class {{feature_name.pascalCase()}}Cubit extends Cubit<{{feature_name.pascalCase()}}State> {
 {{feature_name.pascalCase()}}Cubit(this.useCase) : super({{feature_name.pascalCase()}}Initial());
 
