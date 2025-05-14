@@ -7,7 +7,6 @@ import 'package:equatable/equatable.dart';
 import 'package:injectable/injectable.dart';
 
 
-@lazySingleton
 class Get{{feature_name.pascalCase()}}UseCase extends UseCase<{{feature_name.pascalCase()}}Entity, {{feature_name.pascalCase()}}Params> {
 final {{feature_name.pascalCase()}}Repository repository;
 
